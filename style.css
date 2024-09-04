@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2e7e7;
+    color: #212020;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dcc6c6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 36px;
+    color: #212021;
+}
+.cuisines{
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 24px;
+    color: #212020;
+}
+ol{
+    padding-left: 20px;
+    font-size: 18px;
+    color: #212020;
+}
+.foodgallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foodgallery img{
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
